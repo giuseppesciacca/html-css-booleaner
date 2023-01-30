@@ -5,105 +5,115 @@
     box-sizing: border-box;
 }
 
-/* header*/
-
-header{
+/*---------------
+    HEADER
+---------------*/
+header {
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-color: #71bcf2;
-    height:100px;
-    width: 100%;    
+    height: 100px;
+    width: 100%;
 }
 
-#container_header{
-    width: 75%;
+#container_header {
+    width: 80%;
     margin: auto;
-    position: relative;    
+    position: relative;
 }
 
-#logo{
+#logo {
     width: 200px;
     position: absolute;
     top: 40px;
 }
 
-/*main*/
+/*---------------
+    MAIN
+---------------*/
 
-/*title and photo section*/
-#container_main{
-    width: 75%;
+/*--------title and photo section------*/
+#container_main {
+    width: 80%;
     margin: auto;
 }
 
-#section_title{
+#link_booleaner {
+    text-decoration: none;
+}
+
+#section_title {
     margin-top: 10px;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
 
-#autor, #date{
+#date {
     color: grey;
 }
 
-#date{
+#date {
     font-size: 12px;
 }
 
-#lead_photos >img{
+#main_photos>img {
     margin-top: 20px;
-    text-align:center;
+    text-align: center;
 }
 
-.caption_photo{
+.caption_photo {
     font-size: 12px;
 }
 
-/*text section*/
-#text_section> p{
+/*--------text section------*/
+
+#text_section>p {
     margin-top: 20px
 }
 
-ul{
+ul {
     margin-top: 20px;
 }
 
-table{
+table {
     margin-top: 20px;
 }
 
-#thead{
+#thead {
     background-color: #20a9e5;
     color: white;
 }
 
-.colored_row{
+.colored_row {
     background-color: #b1e5f2;
 }
 
-.highlighted{
+.highlighted {
     background-color: yellow;
 }
 
-/*footer*/
-#footer_section{
-    width: 75%;
+/*---------------
+    FOOTER
+---------------*/
+#footer_section {
+    width: 80%;
     margin: auto;
 }
 
-h2{
+h2 {
     margin-top: 20px;
     color: grey;
 }
 
-#footer_section>div{
+#footer_section>div {
     margin-top: 20px;
     position: relative;
 }
 
-.textinside{
-    position:absolute;
+.textinside {
+    position: absolute;
     color: white;
     font-size: 30px;
     font-weight: bold;
