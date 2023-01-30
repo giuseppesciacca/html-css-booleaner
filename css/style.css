@@ -16,7 +16,7 @@ header{
 }
 
 #container_header{
-    width: 70%;
+    width: 75%;
     margin: auto;
     position: relative;    
 }
@@ -31,7 +31,7 @@ header{
 
 /*title and photo section*/
 #container_main{
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -53,7 +53,7 @@ h1{
 
 #lead_photos >img{
     margin-top: 20px;
-    text-align: center;
+    text-align:center;
 }
 
 .caption_photo{
@@ -82,3 +82,29 @@ table{
     background-color: #b1e5f2;
 }
 
+.highlighted{
+    background-color: yellow;
+}
+
+/*footer*/
+#footer_section{
+    width: 75%;
+    margin: auto;
+}
+
+h2{
+    margin-top: 20px;
+    color: grey;
+}
+
+#footer_section>div{
+    margin-top: 20px;
+    position: relative;
+}
+
+.textinside{
+    position:absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
