@@ -1,0 +1,30 @@
+/*resetto le impostazioni della pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header*/
+
+header{
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: #71bcf2;
+    height:100px;
+    width: 100%;    
+}
+
+#container_header{
+    width: 80%;
+    margin: auto;
+    position: relative;    
+}
+
+#logo{
+    width: 150px;
+    position: absolute;
+    top: 50px;
+}
+
+/*main*/
