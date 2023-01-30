@@ -29,6 +29,7 @@ header{
 
 /*main*/
 
+/*title and photo section*/
 #container_main{
     width: 70%;
     margin: auto;
@@ -58,3 +59,26 @@ h1{
 .caption_photo{
     font-size: 12px;
 }
+
+/*text section*/
+#text_section> p{
+    margin-top: 20px
+}
+
+ul{
+    margin-top: 20px;
+}
+
+table{
+    margin-top: 20px;
+}
+
+#thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+.colored_row{
+    background-color: #b1e5f2;
+}
+
