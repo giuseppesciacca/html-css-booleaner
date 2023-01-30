@@ -11,21 +11,17 @@
 header {
     background-image: url(../img/pattern.png);
     background-size: contain;
-    background-color: #71bcf2;
-    height: 100px;
-    width: 100%;
+    background-color: #4ea0ff;
 }
 
 #container_header {
     width: 80%;
     margin: auto;
-    position: relative;
 }
 
 #logo {
     width: 200px;
-    position: absolute;
-    top: 40px;
+    margin-top: 40px;
 }
 
 /*---------------
@@ -40,6 +36,7 @@ header {
 
 #link_booleaner {
     text-decoration: none;
+    color: #15a4e2;
 }
 
 #section_title {
@@ -50,7 +47,7 @@ h1 {
     font-size: 40px;
 }
 
-#date {
+#autor, #date {
     color: grey;
 }
 
@@ -90,7 +87,7 @@ table {
     background-color: #b1e5f2;
 }
 
-.highlighted {
+.yellow_highlighted {
     background-color: yellow;
 }
 
@@ -112,7 +109,7 @@ h2 {
     position: relative;
 }
 
-.textinside {
+.interest_suggestion {
     position: absolute;
     color: white;
     font-size: 30px;
