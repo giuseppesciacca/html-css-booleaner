@@ -16,15 +16,45 @@ header{
 }
 
 #container_header{
-    width: 80%;
+    width: 70%;
     margin: auto;
     position: relative;    
 }
 
 #logo{
-    width: 150px;
+    width: 200px;
     position: absolute;
-    top: 50px;
+    top: 40px;
 }
 
 /*main*/
+
+#container_main{
+    width: 70%;
+    margin: auto;
+}
+
+#section_title{
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#autor, #date{
+    color: grey;
+}
+
+#date{
+    font-size: 12px;
+}
+
+#lead_photos >img{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.caption_photo{
+    font-size: 12px;
+}
